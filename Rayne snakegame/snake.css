@@ -1,0 +1,25 @@
+body {
+    background-color: black; 
+}
+canvas {
+    display: block;
+    position: fixed; /* Position canvas relative to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure canvas fills the entire viewport */
+    height: 100%;
+}
+#scoreDisplay, #highScoreDisplay {
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 20px;
+}
+
+#scoreDisplay {
+    left: 20px;
+}
+
+#highScoreDisplay {
+    right: 20px;
+}
