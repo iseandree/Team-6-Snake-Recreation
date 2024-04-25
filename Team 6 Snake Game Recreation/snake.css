@@ -1,5 +1,6 @@
 body {
-    background-color: black; 
+    background-color: black;
+    overscroll-behavior: contain;
 }
 canvas {
     display: block;

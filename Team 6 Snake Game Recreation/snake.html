@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snake Recreation</title>
     <link rel="stylesheet" href="snake.css">
+    <link rel="icon" href="snake_icon.png">
 </head>
 <body>
     <canvas id="board"></canvas>
@@ -32,6 +33,18 @@
         <p style="margin: 0; font-size: 20px;">Score</p> 
         <h2 id="modalHighScoreEl" style="font-size: 50px; margin-bottom: 0; margin-top: 8px;">0</h2>
         <p style="margin: 0; font-size: 20px;">High Score</p> 
+
+        <br>
+        <label for="snakeColorPicker">Snake Color: </label>
+        <input type="color" id="snakeColorPickerEnd" value="#00ff00">
+        <br>
+        <label for="foodColorPicker">Food Color: </label>
+        <input type="color" id="foodColorPickerEnd" value="#ff0000">
+        <br>
+        <label for="backgroundColorPicker">Background Color: </label>
+        <input type="color" id="backgroundColorPickerEnd" value="#87CEEB">
+        <br>
+
         <button
         id="buttonEl"
          style="
@@ -70,6 +83,9 @@
         <br>
         <label for="foodColorPicker">Food Color: </label>
         <input type="color" id="foodColorPicker" value="#ff0000">
+        <br>
+        <label for="backgroundColorPicker">Background Color: </label>
+        <input type="color" id="backgroundColorPicker" value="#87CEEB">
         <br>
         <button
         id="startButtonEl"
